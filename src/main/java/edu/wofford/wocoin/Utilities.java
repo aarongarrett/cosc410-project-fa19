@@ -13,11 +13,11 @@ import org.web3j.protocol.core.DefaultBlockParameterName;
 
 
 public class Utilities {
-	
+
 	public static void createNewDatabase(String filename) {
         String url = "jdbc:sqlite:" + filename;
         String users = "CREATE TABLE IF NOT EXISTS users (" +
-					   "id text PRIMARY KEY, " + 
+                       "id text PRIMARY KEY, " + 
 					   "salt integer NOT NULL, " + 
 					   "hash text NOT NULL)";
 		String wallets = "CREATE TABLE IF NOT EXISTS wallets (" +
