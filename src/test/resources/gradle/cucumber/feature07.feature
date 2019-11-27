@@ -4,20 +4,20 @@ Feature: Allow users to send messages to and receive messages from other users.
   The program should take a single command-line argument for the database file.
   It should present the root menu as in the previous feature:
   
-  1. exit
-  2. administrator
-  3. user
+  1: exit
+  2: administrator
+  3: user
   
   Option 2 should work exactly as in the previous feature. Option 3 should
   present a valid user with a menu of numbered options as follows:
   
-  1. back
-  2. create wallet
-  3. add product
-  4. remove product
-  5. display products
-  6. send message
-  7. check messages
+  1: back
+  2: create wallet
+  3: add product
+  4: remove product
+  5: display products
+  6: send message
+  7: check messages
 
   Choosing options 1--5 work as described in the previous feature.
   If the user chooses option 6, the program first verifies that the user has a

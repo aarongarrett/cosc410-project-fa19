@@ -4,17 +4,17 @@ Feature: Allow administrators to transfer WoCoins to a user's wallet.
   The program should take a single command-line argument for the database file.
   It should present the root menu as in the previous feature:
   
-  1. exit
-  2. administrator
-  3. user
+  1: exit
+  2: administrator
+  3: user
   
   Option 3 should work exactly as in the previous feature. Option 2 should
   present the administrator with a menu of numbered options as follows:
   
-  1. back
-  2. add user
-  3. remove user
-  4. transfer WoCoins
+  1: back
+  2: add user
+  3: remove user
+  4: transfer WoCoins
 
   Choosing options 1--3 work as described in the previous feature. Choosing
   option 4 prompts the administrator for the user's username. If the username

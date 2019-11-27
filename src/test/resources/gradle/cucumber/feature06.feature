@@ -4,18 +4,18 @@ Feature: Allow users to display products in the database.
   The program should take a single command-line argument for the database file.
   It should present the root menu as in the previous feature:
   
-  1. exit
-  2. administrator
-  3. user
+  1: exit
+  2: administrator
+  3: user
   
   Option 2 should work exactly as in the previous feature. Option 3 should
   present a valid user with a menu of numbered options as follows:
   
-  1. back
-  2. create wallet
-  3. add product
-  4. remove product
-  5. display products
+  1: back
+  2: create wallet
+  3: add product
+  4: remove product
+  5: display products
 
   Choosing options 1--4 work as described in the previous feature. Choosing
   option 5 displays a list of all products currently available in the database.
